@@ -1,4 +1,4 @@
-const circleArea = document.getElementById('circle-area');
+const circleArea = document.getElementById('box');
 let count = 1;
 
 function addCircle() {
@@ -15,6 +15,6 @@ function toggleBackground() {
     body.classList.toggle('lightcoral');
 }
 
-function removeCircle(e) {
+function removeBox(e) {
     e.target.remove();
 }
