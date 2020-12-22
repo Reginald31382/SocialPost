@@ -2,9 +2,9 @@ const circleArea = document.getElementById('circle-area');
 let count = 1;
 
 function addCircle() {
-    const circle = document.createElement('div'); // <div></div>
-    circle.classList.add('circle'); // <div class="circle"></div>
-    circle.innerText = count; // <div class="circle">1</div>
+    const circle = document.createElement('div');
+    circle.classList.add('circle');
+    circle.innerText = count;
     circleArea.append(circle);
     count++;
 }
